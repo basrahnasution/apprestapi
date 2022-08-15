@@ -4,6 +4,6 @@ var respond = require('./res');
 var connection = require('./koneksi');
 const { response } = require('express');
 
-export.index = function (req,res){
+exports.index = function (req,res){
     response.ok("Aplikasi REST API ku berjalan")
 };
